@@ -35,9 +35,6 @@ gem 'simple_form'
 # Devise
 gem 'devise', '>= 3.2.4'
 
-# Rspec
-gem 'rspec-rails', '~>3.4.2'
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -50,6 +47,10 @@ gem 'rspec-rails', '~>3.4.2'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # Rspec
+  gem 'rspec-rails', '~>3.4.2'
+  # Factory Girl
+  gem 'factory_girl_rails', '~> 4.0'
 end
 
 group :development do

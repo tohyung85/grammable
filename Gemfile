@@ -35,6 +35,18 @@ gem 'simple_form'
 # Devise
 gem 'devise', '>= 3.2.4'
 
+# Carrierwave
+gem 'carrierwave'
+
+# Figaro
+gem 'figaro', '>= 1.0.0'
+
+# Carrierwave aws
+gem 'carrierwave-aws'
+
+# Minimagick
+gem 'mini_magick', '~> 4.3.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
